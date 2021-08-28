@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <meta http-equiv="X-UA-Compatible" content="ie=edge">
+ <title>Digi-X Internship Assessment</title>
+ <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    
+ <section class="calculator">
+  <form>
+   <input type="text" name="" id="" class="screen">
+  </form>
+  <div class="buttons">
+   <!-- yellow -->
+   <button type="button" class="btn-operator btn-yellow" data-num="*">*</button>
+   <button type="button" class="btn-operator btn-yellow" data-num="/">/</button>
+   <button type="button" class="btn-operator btn-yellow" data-num="-">-</button>
+   <button type="button" class="btn-operator btn-yellow" data-num="+">+</button>
+   <!-- grey buttons -->
+   <button type="button" class="btn btn-grey" data-num=".">.</button>
+   <button type="button" class="btn btn-grey" data-num="9">9</button>
+   <button type="button" class="btn btn-grey" data-num="8">8</button>
+   <button type="button" class="btn btn-grey" data-num="7">7</button>
+   <button type="button" class="btn btn-grey" data-num="6">6</button>
+   <button type="button" class="btn btn-grey" data-num="5">5</button>
+   <button type="button" class="btn btn-grey" data-num="4">4</button>
+   <button type="button" class="btn btn-grey" data-num="3">3</button>
+   <button type="button" class="btn btn-grey" data-num="2">2</button>
+   <button type="button" class="btn btn-grey" data-num="1">1</button>
+   <button type="button" class="btn btn-grey" data-num="0">0</button>
+   <button type="button" class="btn-equal btn-grey">=</button>
+   <button type="button" class="btn-clear btn-grey">C</button>
+
+
+  </div>
+
+
+
+
+
+ </section>
+
+
+
+
+ <script src='https://cdn.jsdelivr.net/npm/big.js@6.0.0/big.min.js'></script>
+ <script src="./app.js"></script>
+</body>
+
+<script type="module">
+    // Import the functions you need from the SDKs you need
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/9.0.0/firebase-app.js";
+    // TODO: Add SDKs for Firebase products that you want to use
+    // https://firebase.google.com/docs/web/setup#available-libraries
+  
+    // Your web app's Firebase configuration
+    const firebaseConfig = {
+      apiKey: "AIzaSyDAcCvlVsCFhTM6duMVzAKBnY9sBdCpex4",
+      authDomain: "calculator-javascript-1.firebaseapp.com",
+      projectId: "calculator-javascript-1",
+      storageBucket: "calculator-javascript-1.appspot.com",
+      messagingSenderId: "827226958053",
+      appId: "1:827226958053:web:3a01e7911c299c47f98c0c"
+    };
+  
+    // Initialize Firebase
+    const app = initializeApp(firebaseConfig);
+</script>
+
+</html>
