@@ -1,1 +1,1 @@
-﻿# calculator run by javascript
+﻿# calculator web app
